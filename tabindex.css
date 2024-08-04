@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+}
+
+button {
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid transparent; /* Add an initial border style */
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    border-color: red; /* Change this to your desired border color */
+    outline: none; /* Remove the default focus outline */
+    border-width: 4px;
+}
+
+
+.input-style {
+    margin: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(225, 209, 184);
+    padding: 10px;
+    border: 2px solid transparent; /* Initial border style */
+    cursor: pointer; /* Default cursor */
+}
+
+.input-style:focus {
+    border-width: 4px; /* Make the border thicker */
+    border-color: red; /* Change this to your desired border color */
+    outline: none; /* Remove the default focus outline */
+    cursor: crosshair; /* Change this to your desired cursor style */
+}
+.div-banner2 {
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 500px;
+}
+
+.form-label {
+    font-size: 30px;
+}
+.form-button{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+
+.a-link {
+    font-size: 30px;
+    margin: 10px;
+
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid transparent; /* Add an initial border style */
+    padding: 10px;
+  
+}
+
+.a-link:focus {
+    border-color: rgb(177, 161, 13); /* Change this to your desired border color */
+    outline: none; /* Remove the default focus outline */
+    border-width: 4px;
+}

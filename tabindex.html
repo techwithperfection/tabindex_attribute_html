@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabindex.css">
+    <title>My Website</title>
+</head>
+<body>
+    <div class="center-container">
+
+      <h1>Tabindex Attribute in HTML</h1>   
+
+     <form>
+            <div class="form-group">
+                <label class="form-label" for="name">Name:</label>
+                <input class="input-style" type="text" id="name" tabindex="0">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label" for="email">Email:</label>
+                <input class="input-style" type="email" id="email" tabindex="1">
+            </div>
+            
+            <div class="form-group form-button">
+                <button type="submit" tabindex="2">Submit</button>
+            </div>
+        </form> 
+
+
+     <div>
+            <input class="input-style" type="text" placeholder="Name" tabindex="0">
+            <input class="input-style" type="text" placeholder="Email" tabindex="-1"> 
+            <input class="input-style" type="text" placeholder="Phone">
+            <button type="submit">Submit</button>
+        </div>  
+
+         <a class="a-link" href="#" tabindex="3">Section 1</a>
+        <a class="a-link" href="#" tabindex="1">Section 2</a>
+        <a class="a-link" href="#" tabindex="2">Section 3</a>  
+
+ 
+        <form>
+            <input aria-label="Search Box" class="input-style" type="text" placeholder="Search" tabindex="0">
+            <select class="input-style" tabindex="1">
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+            </select>
+            <button type="submit" tabindex="2">Search</button>
+        </form>
+         
+
+
+        <!-- <button class="center-button" role="button" aria-label="Search">
+            <img src="searchicon.png" alt="">
+        </button>
+
+          <input class="div-banner1" type="text" aria-label="Search Box"/>
+
+         <div class="div-banner2" role="banner" aria-label="Promotional Information">Welcome to our summer sale! Enjoy discounts on a wide range of products, including electronics, clothing, home goods, and much more. Don't miss out on these great deals!</div>  -->
+
+    </div>
+</body>
+</html>
